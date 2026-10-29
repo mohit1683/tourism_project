@@ -26,7 +26,7 @@ city_tier = st.selectbox("City Tier", ["1", "2","3"])
 preferred_property_star = st.selectbox("Preferred Property Star", ["3", "4","5"])
 pitch_satisfaction_score = st.selectbox("Pitch Satisfaction Score", ["1","2","3", "4","5"])
 
-age = st.number_input("AGE", min_value=1.0, max_value=100, value=50.0, step=1)
+age = st.number_input("AGE", min_value=1, max_value=100, value=50, step=1)
 
 duration_of_pitch = st.number_input("Duration Of Pitch", min_value=0, max_value=10, value=3, step=1)
 number_of_person_visiting = st.number_input("Number Of Person Visiting", min_value=0, max_value=500, value=4, step=1)
