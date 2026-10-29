@@ -63,4 +63,4 @@ input_data = pd.DataFrame([{
 if st.button("Predict Result"):
     prediction = model.predict(input_data)[0]
     st.subheader("Prediction Result:")
-    st.success(f"Product Taken **{prediction} ")
+    st.success("Product Taken="+ prediction)
