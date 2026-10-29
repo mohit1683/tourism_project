@@ -33,7 +33,6 @@ number_of_person_visiting = st.number_input("Number Of Person Visiting", min_val
 number_of_followups = st.number_input("Number Of Followups", min_value=0, max_value=10, value=5, step=1)
 
 number_of_trips = st.number_input("Number Of Trips", min_value=0, max_value=10, value=1)
-pitch_satisfaction_score = st.number_input("Pitch Satisfaction Score", min_value=0, max_value=10, value=1)
 number_of_children_visiting = st.number_input("Number Of Children Visiting", min_value=0, max_value=10, value=1)
 monthly_income = st.number_input("MonthlyIncome", min_value=0, max_value=10000000, value=1)
 
