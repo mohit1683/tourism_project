@@ -1,6 +1,6 @@
 import pandas as pd
 
-RAW_PATH = "tourism_project//data/tourism.csv"
+RAW_PATH = "tourism_project/data/tourism.csv"
 
 # Load the raw dataset. A small number of rows contain an app name with an
 # unescaped embedded quote (e.g. Retro Arcade "Classic" Games), which breaks
